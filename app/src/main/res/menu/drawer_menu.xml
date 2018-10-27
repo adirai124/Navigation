@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/home_side"
+            android:title="Home"
+            android:icon="@drawable/ic_home">
+
+        </item>
+        <item android:id="@+id/mail_side"
+            android:title="Check Mail"
+            android:icon="@drawable/ic_mail">
+
+        </item>
+        <item android:id="@+id/add_person_side"
+            android:title="Add Friend"
+            android:icon="@drawable/ic_person_add">
+
+        </item>
+        <item android:id="@+id/search_side"
+            android:title="Search"
+            android:icon="@drawable/ic_search">
+
+        </item>
+        <item android:id="@+id/setting_side"
+            android:title="Settings"
+            android:icon="@drawable/ic_settings">
+
+        </item>
+
+    </group>
+    <item android:title="Share Our App">
+
+        <menu>
+            <item
+                android:id="@+id/share_side"
+                android:title="Share"
+                android:icon="@drawable/ic_share_black_24dp">
+
+            </item>
+
+        </menu>
+    </item>
+
+
+
+</menu>

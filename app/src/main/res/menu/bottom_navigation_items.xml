@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/photos"
+            android:title="Photos"
+            android:icon="@drawable/ic_photo_album"
+            />
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/ic_camera"
+            android:title="Camera"
+            />
+        <item
+            android:id="@+id/profile"
+            android:title="Add Friend"
+            android:icon="@drawable/ic_person_add"
+            />
+
+        <item
+            android:id="@+id/calander"
+            android:icon="@drawable/ic_calander"
+            android:title="Calander"
+
+            />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings"/>
+
+
+</menu>
